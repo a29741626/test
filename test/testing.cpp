@@ -7,3 +7,8 @@ BOOST_AUTO_TEST_CASE( my_addition_test )
 {
     BOOST_CHECK_EQUAL( calculate(10000) , 2000 );
 }
+
+BOOST_AUTO_TEST_CASE( my_addition_test1 )
+{
+    BOOST_CHECK_EQUAL( calculate(50000) , 12500 );
+}
