@@ -17,3 +17,8 @@ BOOST_AUTO_TEST_CASE( my_addition_test2 )
 {
     BOOST_CHECK_EQUAL( calculate(200000) , 75000 );
 }
+
+BOOST_AUTO_TEST_CASE( my_addition_test3 )
+{
+    BOOST_CHECK_EQUAL( calculate(-200000) , 0 );
+}

@@ -6,7 +6,11 @@ int calculate(int income)
 {
     int tax;
 
-    if(income > 0 && income <= 37500)
+    if(income < 0)
+    {
+        tax = 0;
+    }
+    else if(income > 0 && income <= 37500)
     {
         tax = income * 0.2;
     }
