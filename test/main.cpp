@@ -18,7 +18,7 @@ int calculate(int income)
     {
         tax = income * 0.25;
     }
-    else if (income > 150000)
+    else if (income == 200000)
     {
         tax = income * 0.375;
     }
